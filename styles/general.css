@@ -1,7 +1,21 @@
+:root {
+    --fore: #ffffff;
+    --back: #202020;
+    --back-alt: #303030;
+
+    --color1: #f9e4cb;
+    --color2: #c1d6a8;
+    --color3: #bad6f1;
+    --color4: #f6d8e7;
+    --color5: #b0abc8;
+
+    --viev-cards-back: var(--back);
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #202020;
+    background-color: var(--back);
 }
 
 div.view {
